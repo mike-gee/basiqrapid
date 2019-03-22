@@ -1,7 +1,7 @@
 Quickstart Guide
 ======================
 
-**Import Basiq Rapid into Python**
+**Import Basiq Rapid into Python**::
 
    import basiqrapid as bq
 
@@ -14,7 +14,7 @@ Quickstart Guide
 **Get institutions**::
 
    institution_dict = session.getInstitutions()
-   wbc_code = institution_dict['Westpac']
+   wbc_code = institution_dict['Westpac Banking Corporation']
 
 **Create a User**::
 
