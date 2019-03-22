@@ -44,3 +44,5 @@ Dependencies: json, requests, pandas
    filters
 
    utilities
+
+   objects
