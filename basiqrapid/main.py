@@ -106,7 +106,7 @@ class Session:
 			Returns dict of institutions.
 
 		"""
-		institutions_json = requests.get(url + "/institutions", headers=HEADER)
+		institutions_json = requests.get(self.API_URL + "/institutions", headers=HEADER)
 		checkStatus(institutions_json)
 		institutions = { inst['name']:inst['id'] for inst in institutions_json.json()['data'] }
 		return(institutions)
@@ -128,7 +128,7 @@ class Session:
 			Returns raw json of institutions.
 
 		"""
-		institutions_json = requests.get(url + "/institutions", headers=HEADER)
+		institutions_json = requests.get(self.API_URL + "/institutions", headers=HEADER)
 		checkStatus(institutions_json)
 		return(institutions_json.json())
 
