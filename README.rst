@@ -1,6 +1,6 @@
 Basiq Rapid
 =====================
-**A Python 3+ wrapper for the `basiq.io <https://www.basiq.io>`_ API**
+**A Python 3+ wrapper for the basiq.io API**
 
 ----
 
