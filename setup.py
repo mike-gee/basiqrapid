@@ -1,8 +1,8 @@
 from setuptools import setup
 setup(
-    name=“basiqrapid”,
+    name="basiqrapid",
     packages=["basiqrapid"],
-    version="1.0.0",
+    version="1.0.2",
     description="A Python wrapper for Basiq.io’s API",
     author="Michael Gee",
     python_requires=">=3",
