@@ -20,28 +20,33 @@ Detailed object methods and subroutines available `here <https://basiq-rapid.rea
 Create a User
 **********************
 Example Usage::
+
    usr = session.createUser(email="gavinBelson",mobile="")
 
 Get a User by ID
 *********************
 Example Usage::
+
    user_id = "88888888"
    usr = session.getUser(user_id)
 
 Get dict of institutions
 ***************************
 Example Usage::
+
    inst_dict = session.getInstitutions()
    wbc_ID = inst_dict["Westpac Banking Corporation"]
 
 Get institutions JSON
 *************************
 Example Usage::
+
    inst_json = session.getInstitutionsJSON()
 
 Search for an institution code
 *********************************
 Example Usage::
+
    results = session.searchInstitutions("Westpac")
    for result in results:
       print(result)
@@ -49,6 +54,7 @@ Example Usage::
 Delete User
 ***************
 Example Usage::
+
    user_id = "88888888"
    session.deleteUser(user_id)
 
