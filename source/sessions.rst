@@ -21,7 +21,7 @@ Create a User
 **********************
 Example Usage::
 
-   usr = session.createUser(email="gavinBelson",mobile="")
+   usr = session.createUser(email="gavinBelson",mobile="+61888000888")
 
 Get a User by ID
 *********************
