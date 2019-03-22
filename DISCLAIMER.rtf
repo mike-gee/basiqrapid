@@ -1,0 +1,5 @@
+Notice of Non-Affiliation and Disclaimer 
+
+We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Basiq, or any of its subsidiaries or its affiliates. The official Basiq website can be found at http://www.basiq.io. The name “Basiq” as well as related names, marks, emblems and images are registered trademarks of Basiq LLC. 
+
+The use in this package and/or in related documentation or related print is strictly for editorial and descriptive purposes, and no commercial claim to their use, or suggestion of sponsorship or endorsement, is made by the author. Those words or terms that the author have reason to believe are trademarks are designated as such by the use of initial capitalization, where appropriate. However no attempt has been made to identify or designate all words or terms to which trademark or other proprietary rights may exist. Nothing contained herein is intended to express a judgment on, or affect the validity of legal status of, any word or term as a trademark, service mark, or other proprietary mark.
