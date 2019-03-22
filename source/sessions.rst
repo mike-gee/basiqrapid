@@ -12,42 +12,43 @@ Creating a basiq.io Session::
 
    session = bq.Session(API_KEY)
 
-
 Capabilities
 ######################
 
+Detailed object methods and subroutines available `here <https://basiq-rapid.readthedocs.io/en/latest/objects.html#main.Session>`_.
+
 Create a User
 **********************
-.. code-block:: python
+Example Usage::
    usr = session.createUser(email="gavinBelson",mobile="")
 
 Get a User by ID
 *********************
-.. code-block:: python
+Example Usage::
    user_id = "88888888"
    usr = session.getUser(user_id)
 
 Get dict of institutions
 ***************************
-.. code-block:: python
+Example Usage::
    inst_dict = session.getInstitutions()
    wbc_ID = inst_dict["Westpac Banking Corporation"]
 
 Get institutions JSON
 *************************
-.. code-block:: python
+Example Usage::
    inst_json = session.getInstitutionsJSON()
 
 Search for an institution code
 *********************************
-.. code-block:: python
+Example Usage::
    results = session.searchInstitutions("Westpac")
    for result in results:
       print(result)
 
 Delete User
 ***************
-.. code-block:: python
+Example Usage::
    user_id = "88888888"
    session.deleteUser(user_id)
 
