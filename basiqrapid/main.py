@@ -106,7 +106,7 @@ class Session:
 			Returns dict of institutions.
 
 		"""
-		institutions_json = requests.get(self.API_URL + "/institutions", headers=HEADER)
+		institutions_json = requests.get(self.API_URL + "/institutions", headers=self.__HEADER)
 		checkStatus(institutions_json)
 		institutions = { inst['name']:inst['id'] for inst in institutions_json.json()['data'] }
 		return(institutions)
@@ -128,7 +128,7 @@ class Session:
 			Returns raw json of institutions.
 
 		"""
-		institutions_json = requests.get(self.API_URL + "/institutions", headers=HEADER)
+		institutions_json = requests.get(self.API_URL + "/institutions", headers=self.__HEADER)
 		checkStatus(institutions_json)
 		return(institutions_json.json())
 
@@ -456,7 +456,7 @@ class User:
 
 		checkStatus(accounts_json)
 
-		accounts = []
+		self.accounts = []
 
 		try:
 			
@@ -562,7 +562,7 @@ class Connection:
 		checkStatus(accounts_json)
 
 		for account_json in accounts_json.json()['data']:
-			account_list.append(Account(accounts_json,self.__HEADER))
+			account_list.append(Account(account_json,self.__HEADER))
 
 		return(account_list)
 
