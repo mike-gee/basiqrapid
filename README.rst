@@ -38,7 +38,7 @@ Coming in next couple days.... 🏃🏃🏃
 Quickstart
 ############
 
-**Import Basiq Rapid into Python**
+**Import Basiq Rapid into Python**::
 
    import basiqrapid as bq
 
