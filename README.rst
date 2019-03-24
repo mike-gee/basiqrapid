@@ -51,7 +51,7 @@ Quickstart
 **Get institutions**::
 
    institution_dict = session.getInstitutions()
-   wbc_code = institution_dict['Westpac']
+   wbc_code = institution_dict['Westpac Banking Corporation']
 
 **Create a User**::
 
@@ -59,7 +59,7 @@ Quickstart
 
 **Create a connection**::
 
-   job = usr.createConnection(loginID="gavinBelson", password="hooli2016", institutionID="AU00000")
+   job = usr.addConnection(loginID="gavinBelson", password="hooli2016", institutionID="AU00000")
    print(job.getStatus())
 
 **Some User Capabilities**::
