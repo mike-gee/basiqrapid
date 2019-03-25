@@ -2,7 +2,16 @@ Basiq Rapid
 =====================
 **A Python 3+ wrapper for the basiq.io API**
 
+.. image:: https://readthedocs.org/projects/basiq-rapid/badge/?version=latest
+:target: https://basiq-rapid.readthedocs.io/en/latest/?badge=latest
+:alt: Documentation Status
+
+.. image:: https://pypi.org/project/basiqrapid/
+:target: https://img.shields.io/pypi/v/basiqrapid.svg
+:alt: Build Status
+
 ----
+
 
 About
 ##############
