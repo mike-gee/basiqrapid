@@ -44,6 +44,14 @@ Example Usage::
 
    transactions = usr.getTransactions()
 
+Get transaction
+***************************
+Returns a Transaction object.
+
+Example Usage::
+
+   transaction = usr.getTransaction("transaction-id823904")
+
 Get income
 *************************
 Returns an Income object.
@@ -78,6 +86,14 @@ Example Usage::
 
    accounts = usr.getAccounts()
 
+Get Account
+****************
+Returns account object.
+
+Example Usage::
+
+   account = usr.getAccount("acount-id786239420")
+
 Get Connections
 ****************
 Returns list of Connection objects.
@@ -85,3 +101,13 @@ Returns list of Connection objects.
 Example Usage::
 
    connections = usr.getConnections()
+
+Get Connection
+****************
+Returns connection object.
+
+Example Usage::
+
+   connection = usr.getConnection("conn-id2138967192837")
+
+

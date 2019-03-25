@@ -267,6 +267,29 @@ class User:
 
 		return(return_transactions)
 
+	def getTransaction(self, transactionID):
+		"""
+		Fetches transaction.
+
+		Fetches transactions and returns list of Transaction objects.
+
+		Parameters
+		----------
+		transactionID
+			transactionID string
+
+		Returns
+		-------
+		list
+			Returns list of Transaction objects. (max: 500)
+
+		"""
+		trans_json = requests.get(self.links['self'] + "/transactions/" + transactionID,headers=self.__HEADER)
+
+		checkStatus(trans_json)
+
+		return(Transaction(trans_json.json(),self.__HEADER))
+
 	def getIncome(self):
 		"""
 		Fetches user's income summary.
@@ -431,6 +454,14 @@ class User:
 
 		return(self.connections)
 
+	def getConnection(self,connectionID):
+
+		conn_json = requests.get(self.links['self'] + "/connections/" + connectionID,headers=self.__HEADER)
+
+		checkStatus(conn_json)
+
+		return(Connection(conn_json.json(),self.__HEADER))
+
 	def getAccounts(self, input_filter=None):
 		
 		"""
@@ -469,6 +500,14 @@ class User:
 			self.accounts = []
 
 		return(self.accounts)
+
+	def getAccount(self, accountID):
+
+		acc_json = requests.get(self.links['self'] + "/accounts/" + accountID,headers=self.__HEADER)
+
+		checkStatus(acc_json)
+
+		return(Account(acc_json.json(),self.__HEADER))
 
 	def to_dict(self):
 
