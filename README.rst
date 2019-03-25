@@ -33,7 +33,7 @@ Dependencies: json, requests, pandas
 Documentation
 ##################
 
-Coming in next couple days.... 🏃🏃🏃
+`Basiq Rapid Read the Docs <https://basiq-rapid.readthedocs.io>`_
 
 Quickstart
 ############
