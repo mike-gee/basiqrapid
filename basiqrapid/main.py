@@ -763,27 +763,27 @@ class newFilter:
 
 		def eq(self,propertydotcondition,value):
 
-			filter_list.append(str(propertydotcondition) + '.eq(' + str(value) + ')')
+			filter_list.append(str(propertydotcondition) + ".eq('" + str(value) + "')")
 
-		def bt(self,propertydotcondition,value):
+		def bt(self,propertydotcondition,value1,value2):
 
-			filter_list.append(str(propertydotcondition) + '.bt(' + str(value) + ')')
+			filter_list.append(str(propertydotcondition) + ".bt('" + str(value1) + "','" + str(value2) + "')")
 
 		def gt(self,propertydotcondition,value):
 
-			filter_list.append(str(propertydotcondition) + '.gt(' + str(value) + ')')
+			filter_list.append(str(propertydotcondition) + ".gt('" + str(value) + "')")
 
 		def gteq(self,propertydotcondition,value):
 
-			filter_list.append(str(propertydotcondition) + '.gteq(' + str(value) + ')')
+			filter_list.append(str(propertydotcondition) + ".gteq('" + str(value) + "')")
 
 		def lt(self,propertydotcondition,value):
 
-			filter_list.append(str(propertydotcondition) + '.lt(' + str(value) + ')')
+			filter_list.append(str(propertydotcondition) + ".lt('" + str(value) + "')")
 
 		def lteq(self,propertydotcondition,value):
 
-			filter_list.append(str(propertydotcondition) + '.lteq(' + str(value) + ')')
+			filter_list.append(str(propertydotcondition) + ".lteq('" + str(value) + "')")
 
 		def getList(self):
 
