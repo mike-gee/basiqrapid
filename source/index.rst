@@ -27,7 +27,16 @@ Installation::
 
 Dependencies: json, requests, pandas
 
+Getting started
+##################
 
+Get started with our `Quickstart Guide <https://basiq-rapid.readthedocs.io/en/latest/quickstart.html>`_.
+
+Read about the API at `basiq.io <api.basiq.io>`_.
+
+
+Contents
+###########
 
 .. toctree::
 
