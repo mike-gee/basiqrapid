@@ -14,7 +14,7 @@ Example::
 Capabilities
 ######################
 
-Detailed object methods and subroutines available `here <https://basiq-rapid.readthedocs.io/en/latest/objects.html#main.Connection>`_.
+Detailed object methods and subroutines available `here <https://basiq-rapid.readthedocs.io/en/latest/objects.html#main.Transaction>`_.
 
 Basics
 ***********
