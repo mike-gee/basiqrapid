@@ -58,6 +58,7 @@ Example Usage::
    user_id = "88888888"
    session.deleteUser(user_id)
 
+Or::
 
-
+   del usr
 
